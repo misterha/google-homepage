@@ -14,9 +14,23 @@ nav ul{
 }
 nav ul li{
 	display: inline-block;
-	list-style-type: none;
 	padding: 10px 5px;
 	margin: 0px;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: #757575;
+
+}
+
+a:visited{
+	color: #757575;
+}
+
+a:hover{
+	text-decoration: underline;
 
 }
 
@@ -62,6 +76,15 @@ nav ul li{
     border-image-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
+}
+
+.main_content ul li a:link{
+	text-decoration: none;
+}
+
+.main_content ul li:hover{
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,1);
 }
 
 footer{
